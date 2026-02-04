@@ -1,0 +1,6 @@
+transaction_id,customer_id,store_id,product_id,transaction_date,channel,quantity,discount_pct,rejection_reason,rejected_at
+T9999999,C00001,S001,P0500,2025-12-01,InStore,1,0.0,transaction_id not unique; product_id does not exist;,2026-02-04 15:21:23
+T4580215,C00001,S001,P00523,2025-12-01 00:00:00,Online,2,0.78,product_id does not exist;,2026-02-04 15:27:11
+T4580215,C00001,S001,P00001,2025-12-01 00:00:00,Online,2,0.78,product_id does not exist;,2026-02-04 15:27:27
+T4580215,C00001,S001,P000010,2025-12-01 00:00:00,Online,2,0.78,product_id does not exist;,2026-02-04 15:27:34
+T9999999,C00001,S001,P0001,2025-12-01 00:00:00,InStore,1,0.0,transaction_id not unique;,2026-02-04 18:58:05
