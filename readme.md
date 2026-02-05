@@ -128,6 +128,11 @@ Pipeline:
 4. Scaling  
 5. Prediction using XGBoost  
 
+
+## Team
+**Team Name:**  
+###  AI Alchemists  
+A team dedicated to transforming data into intelligent, impactful solutions using Machine Learning and AI.
 ---
 
 ## How to Run
@@ -138,9 +143,7 @@ streamlit run app.py
 
 http://localhost:8501
 ---
-## Team
-**Team Name:**  
-###  AI Alchemists  
-A team dedicated to transforming data into intelligent, impactful solutions using Machine Learning and AI.
+
+
 
 
