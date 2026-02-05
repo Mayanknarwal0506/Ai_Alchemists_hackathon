@@ -137,5 +137,10 @@ pip install -r requirements.txt
 streamlit run app.py
 
 http://localhost:8501
+---
+## Team
+**Team Name:**  
+###  AI Alchemists  
+A team dedicated to transforming data into intelligent, impactful solutions using Machine Learning and AI.
 
 
