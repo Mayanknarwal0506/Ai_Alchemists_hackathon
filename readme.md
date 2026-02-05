@@ -77,20 +77,40 @@ The dataset includes customer purchase behavior such as:
 
 ---
 
-## Machine Learning Model
+##  Machine Learning Model
 
-The model is trained using **XGBoost Regressor** in `Models.ipynb`.
+The models are trained and evaluated in `Models.ipynb`.
 
-Why XGBoost?
+We implemented and compared multiple machine learning and deep learning models:
+
+- **Linear Regression**  
+- **Random Forest Regressor**  
+- **XGBoost Regressor**  
+- **Recurrent Neural Network (RNN)**  
+- **Long Short-Term Memory (LSTM)**  
+- **Gated Recurrent Unit (GRU)**  
+
+These models were used to learn customer spending patterns from historical transaction data.
+
+Why these models?
+
+- **Linear Regression** – Baseline model to understand linear relationships  
+- **Random Forest** – Handles non-linearity and feature interactions  
+- **XGBoost** – High performance on structured tabular data  
+- **RNN** – Learns sequential patterns in customer transactions  
+- **LSTM** – Captures long-term dependencies in spending behavior  
+- **GRU** – Efficient alternative to LSTM for time-series modeling  
+
+The best-performing model was selected and saved as:
+
+The model is trained using **GRU** in `Models.ipynb`.
+
+Why GRU?
 - Works well with structured data  
 - High accuracy  
 - Prevents overfitting  
-- Handles complex relationships  
-
-Saved model:
-
----
-
+- Handles complex relationships
+- 
 ## Streamlit Application
 
 File: `app.py`
@@ -117,3 +137,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 http://localhost:8501
+
