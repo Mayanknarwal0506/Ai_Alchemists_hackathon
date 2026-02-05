@@ -110,7 +110,7 @@ Why GRU?
 - High accuracy  
 - Prevents overfitting  
 - Handles complex relationships
-- 
+  
 ## Streamlit Application
 
 File: `app.py`
@@ -137,4 +137,5 @@ pip install -r requirements.txt
 streamlit run app.py
 
 http://localhost:8501
+
 
